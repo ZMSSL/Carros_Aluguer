@@ -1,0 +1,36 @@
+@charset "UTF-8";
+ 
+
+ 
+input[type=submit], input[type=reset]{
+	background-color:rgb(151, 151, 255);
+	color:pink;
+	padding: 5px;
+	border: none;	
+}
+ 
+body{
+	background-color:rgb(121, 200, 208);
+	text-align:center;
+}
+#fig {
+            width: 50%; /* Ajuste o tamanho como desejar */
+            max-width: 300px; /* Limite máximo de largura */
+            height: auto; /* Mantém a proporção da imagem */
+        }
+a:link,a:visited{
+    background-color:rgb(151,151, 255);
+    color:pink;
+    padding: 5px;
+    text-decoration:none;
+ }
+ 
+#reservas{
+    border-collapse: collapse;
+    
+ }
+#reservas td{
+    border: 1px solid rgb(168, 255, 255);
+    padding:5px;
+   
+ }
